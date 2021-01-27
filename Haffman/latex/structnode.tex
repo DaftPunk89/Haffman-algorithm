@@ -1,0 +1,92 @@
+\hypertarget{structnode}{}\doxysection{node Struct Reference}
+\label{structnode}\index{node@{node}}
+
+
+the nood class is intended for implementing a tree  
+
+
+
+
+{\ttfamily \#include $<$Huffman.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structnode_a82669b7358b50bd8d7888d7df4ff8dfa}{node}} ()
+\item 
+\mbox{\hyperlink{structnode_ac0aab5416890611530b0a0c7ee67916e}{node}} (\mbox{\hyperlink{structnode}{node}} $\ast$L, \mbox{\hyperlink{structnode}{node}} $\ast$R)
+\item 
+void \mbox{\hyperlink{structnode_ab1fa8889e586dc245584a926383146e1}{set\+\_\+symbol}} (char c)
+\item 
+void \mbox{\hyperlink{structnode_a059b54badba5e14f01bebf3ccafb11d9}{set\+\_\+val}} (int a)
+\item 
+int \mbox{\hyperlink{structnode_a0eb537bd7b4bd614482ea855b1f92340}{get\+\_\+val}} ()
+\item 
+char \mbox{\hyperlink{structnode_a36feb100eefdda372010de5d59b4e853}{get\+\_\+symbol}} ()
+\item 
+\mbox{\hyperlink{structnode}{node}} $\ast$ \mbox{\hyperlink{structnode_a713a6b58801e419297c850e6aa913e30}{get\+\_\+left}} ()
+\item 
+\mbox{\hyperlink{structnode}{node}} $\ast$ \mbox{\hyperlink{structnode_ad0dbf3d34ff835ea7b0dece860740a2f}{get\+\_\+right}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+the nood class is intended for implementing a tree 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{structnode_a82669b7358b50bd8d7888d7df4ff8dfa}\label{structnode_a82669b7358b50bd8d7888d7df4ff8dfa}} 
+\index{node@{node}!node@{node}}
+\index{node@{node}!node@{node}}
+\doxysubsubsection{\texorpdfstring{node()}{node()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily node\+::node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+simple constructor \mbox{\Hypertarget{structnode_ac0aab5416890611530b0a0c7ee67916e}\label{structnode_ac0aab5416890611530b0a0c7ee67916e}} 
+\index{node@{node}!node@{node}}
+\index{node@{node}!node@{node}}
+\doxysubsubsection{\texorpdfstring{node()}{node()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily node\+::node (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structnode}{node}} $\ast$}]{L,  }\item[{\mbox{\hyperlink{structnode}{node}} $\ast$}]{R }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+constructor that accepts 2 nodes as input\+: left and right 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{structnode_a713a6b58801e419297c850e6aa913e30}\label{structnode_a713a6b58801e419297c850e6aa913e30}} 
+\index{node@{node}!get\_left@{get\_left}}
+\index{get\_left@{get\_left}!node@{node}}
+\doxysubsubsection{\texorpdfstring{get\_left()}{get\_left()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structnode}{node}}$\ast$ node\+::get\+\_\+left (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+returns a reference to the left son \mbox{\Hypertarget{structnode_ad0dbf3d34ff835ea7b0dece860740a2f}\label{structnode_ad0dbf3d34ff835ea7b0dece860740a2f}} 
+\index{node@{node}!get\_right@{get\_right}}
+\index{get\_right@{get\_right}!node@{node}}
+\doxysubsubsection{\texorpdfstring{get\_right()}{get\_right()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structnode}{node}}$\ast$ node\+::get\+\_\+right (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+returns a reference to the right son \mbox{\Hypertarget{structnode_a36feb100eefdda372010de5d59b4e853}\label{structnode_a36feb100eefdda372010de5d59b4e853}} 
+\index{node@{node}!get\_symbol@{get\_symbol}}
+\index{get\_symbol@{get\_symbol}!node@{node}}
+\doxysubsubsection{\texorpdfstring{get\_symbol()}{get\_symbol()}}
+{\footnotesize\ttfamily char node\+::get\+\_\+symbol (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the symbol from the node \mbox{\Hypertarget{structnode_a0eb537bd7b4bd614482ea855b1f92340}\label{structnode_a0eb537bd7b4bd614482ea855b1f92340}} 
+\index{node@{node}!get\_val@{get\_val}}
+\index{get\_val@{get\_val}!node@{node}}
+\doxysubsubsection{\texorpdfstring{get\_val()}{get\_val()}}
+{\footnotesize\ttfamily int node\+::get\+\_\+val (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+get the val from the node \mbox{\Hypertarget{structnode_ab1fa8889e586dc245584a926383146e1}\label{structnode_ab1fa8889e586dc245584a926383146e1}} 
+\index{node@{node}!set\_symbol@{set\_symbol}}
+\index{set\_symbol@{set\_symbol}!node@{node}}
+\doxysubsubsection{\texorpdfstring{set\_symbol()}{set\_symbol()}}
+{\footnotesize\ttfamily void node\+::set\+\_\+symbol (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+changes the symbol in the node accepts a character as input \mbox{\Hypertarget{structnode_a059b54badba5e14f01bebf3ccafb11d9}\label{structnode_a059b54badba5e14f01bebf3ccafb11d9}} 
+\index{node@{node}!set\_val@{set\_val}}
+\index{set\_val@{set\_val}!node@{node}}
+\doxysubsubsection{\texorpdfstring{set\_val()}{set\_val()}}
+{\footnotesize\ttfamily void node\+::set\+\_\+val (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+changes the val in the node accepts a integer value as input 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Huffman.\+h\end{DoxyCompactItemize}

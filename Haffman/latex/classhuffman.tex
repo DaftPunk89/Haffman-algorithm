@@ -1,0 +1,74 @@
+\hypertarget{classhuffman}{}\doxysection{huffman Class Reference}
+\label{classhuffman}\index{huffman@{huffman}}
+
+
+class that implements the Huffman algorithm  
+
+
+
+
+{\ttfamily \#include $<$Huffman.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classhuffman_a86bb846ecdaef11dbdde20ba2ae42474}{huffman}} (string file\+\_\+name)
+\item 
+\mbox{\hyperlink{classhuffman_a27d31f3ab7676ac169649b0142a9b15f}{$\sim$huffman}} ()
+\item 
+void \mbox{\hyperlink{classhuffman_ad1913ed394742e0e637db05f6a208f8c}{create\+\_\+table}} (\mbox{\hyperlink{structnode}{node}} $\ast$head, vector$<$ bool $>$ \&code)
+\item 
+void \mbox{\hyperlink{classhuffman_a47644c1bfe9791676c8453a8dfc6bd51}{code\+\_\+f}} (string in\+\_\+file\+\_\+name, string out\+\_\+file\+\_\+name)
+\item 
+void \mbox{\hyperlink{classhuffman_a8fb2b81888eac2d31fd45a972f4c56a8}{decod\+\_\+f}} (string in\+\_\+file\+\_\+name, string out\+\_\+file\+\_\+name)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+class that implements the Huffman algorithm 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classhuffman_a86bb846ecdaef11dbdde20ba2ae42474}\label{classhuffman_a86bb846ecdaef11dbdde20ba2ae42474}} 
+\index{huffman@{huffman}!huffman@{huffman}}
+\index{huffman@{huffman}!huffman@{huffman}}
+\doxysubsubsection{\texorpdfstring{huffman()}{huffman()}}
+{\footnotesize\ttfamily huffman\+::huffman (\begin{DoxyParamCaption}\item[{string}]{file\+\_\+name }\end{DoxyParamCaption})}
+
+reading information about how many times a particular symbol was encountered creating a list of primary elements creating a tree creating a Huffman code associativity table with a symbol, 
+\begin{DoxyParams}{Parameters}
+{\em 1} & takes the name of the input file as input \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classhuffman_a27d31f3ab7676ac169649b0142a9b15f}\label{classhuffman_a27d31f3ab7676ac169649b0142a9b15f}} 
+\index{huffman@{huffman}!````~huffman@{$\sim$huffman}}
+\index{````~huffman@{$\sim$huffman}!huffman@{huffman}}
+\doxysubsubsection{\texorpdfstring{$\sim$huffman()}{~huffman()}}
+{\footnotesize\ttfamily huffman\+::$\sim$huffman (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+delete a tree 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classhuffman_a47644c1bfe9791676c8453a8dfc6bd51}\label{classhuffman_a47644c1bfe9791676c8453a8dfc6bd51}} 
+\index{huffman@{huffman}!code\_f@{code\_f}}
+\index{code\_f@{code\_f}!huffman@{huffman}}
+\doxysubsubsection{\texorpdfstring{code\_f()}{code\_f()}}
+{\footnotesize\ttfamily void huffman\+::code\+\_\+f (\begin{DoxyParamCaption}\item[{string}]{in\+\_\+file\+\_\+name,  }\item[{string}]{out\+\_\+file\+\_\+name }\end{DoxyParamCaption})}
+
+the function encoding the file takes the input name of the input file and the name of the output file \mbox{\Hypertarget{classhuffman_ad1913ed394742e0e637db05f6a208f8c}\label{classhuffman_ad1913ed394742e0e637db05f6a208f8c}} 
+\index{huffman@{huffman}!create\_table@{create\_table}}
+\index{create\_table@{create\_table}!huffman@{huffman}}
+\doxysubsubsection{\texorpdfstring{create\_table()}{create\_table()}}
+{\footnotesize\ttfamily void huffman\+::create\+\_\+table (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structnode}{node}} $\ast$}]{head,  }\item[{vector$<$ bool $>$ \&}]{code }\end{DoxyParamCaption})}
+
+a recursive function that builds a symbol associativity table with Huffman code takes a search tree and a bool vector as input \mbox{\Hypertarget{classhuffman_a8fb2b81888eac2d31fd45a972f4c56a8}\label{classhuffman_a8fb2b81888eac2d31fd45a972f4c56a8}} 
+\index{huffman@{huffman}!decod\_f@{decod\_f}}
+\index{decod\_f@{decod\_f}!huffman@{huffman}}
+\doxysubsubsection{\texorpdfstring{decod\_f()}{decod\_f()}}
+{\footnotesize\ttfamily void huffman\+::decod\+\_\+f (\begin{DoxyParamCaption}\item[{string}]{in\+\_\+file\+\_\+name,  }\item[{string}]{out\+\_\+file\+\_\+name }\end{DoxyParamCaption})}
+
+the function that decodes the file takes the name of the input file and the name of the output file as input 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Huffman.\+h\item 
+Huffman.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\ProgectsVS2019\Haffman\Haffman\main.cpp(160,22): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ProgectsVS2019\Haffman\Haffman\main.cpp(171,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\ProgectsVS2019\Haffman\Haffman\main.cpp(178,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 699 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  Haffman.vcxproj -> D:\ProgectsVS2019\Haffman\Release\Haffman.exe
